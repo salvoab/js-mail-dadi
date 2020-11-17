@@ -3,10 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mail</title>
+        <title>Dadi</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
-        
+        <h1>Gioco dei dadi</h1>
+        <h2>Clicca il bottone per lanciare un dado</h2>
+        <input type="button" value="Lancia" id="btn-lancio">
+
+        <section id="risultati" class="nascondi">
+            <h2>Il dado che hai lanciato ha dato come risultato il numero: <span id="numero-utente"></span></h2>
+            <h2>Il dado che ha lanciato il computer ha dato come risultato il numero: <span id="numero-pc"></span></h2>
+            <h3 id="messaggio"></h3>
+        </section>
+
         <script src="./assets/js/main.js"></script>
     </body>
 </html>
