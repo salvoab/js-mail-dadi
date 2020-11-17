@@ -8,7 +8,6 @@ var btnVerifica = document.getElementById("btn-verifica");
 var utentiRegistrati = ["pippo@mail.com", "paperino@mail.com","pluto@mail.com"];
 
 btnVerifica.addEventListener("click", function(){
-    var message;
     var paragrafoMessaggio = document.getElementById("messaggio");
     var userMailInput = document.getElementById("user-mail");
     var userMail = userMailInput.value;

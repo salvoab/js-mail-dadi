@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dadi</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <h2>Inserisci la tua mail, se sei un utente registrato potrai giocare a dadi</h2>
+        <input type="email" name="user-mail" id="user-mail">
+        <input type="button" value="Verifica Mail" id="btn-verifica">
+        <p id="messaggio-verifica"></p>
+
+        <section id="gioco-dadi" class="nascondi">
+            <h2>Gioco dei dadi</h2>
+            <h2>Clicca il bottone per lanciare un dado</h2>
+            <input type="button" value="Lancia" id="btn-lancio">
+    
+            <section id="risultati" class="nascondi">
+                <h2>Il dado che hai lanciato ha dato come risultato il numero: </h2>
+                <img id="numero-utente">
+                <h2>Il dado che ha lanciato il computer ha dato come risultato il numero: </h2>
+                <img id="numero-pc">
+                <h3 id="messaggio-gioco"></h3>
+            </section>
+        </section>
+
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
